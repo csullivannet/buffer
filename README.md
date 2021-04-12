@@ -5,7 +5,7 @@
 ### Prerequisites
 
 This CLI tool was designed for use with python3. Please ensure you have python3
-v3.9+ installed. [Get it here.](https://www.python.org/downloads/_
+v3.9+ installed. [Get it here.](https://www.python.org/downloads/)
 
 `pip` is also required. You probably already have it on your system, but just in
 case you don't you can follow instructions on how to install it
@@ -58,3 +58,13 @@ of mismatched dependencies with other tools and libraries.
 - `--get`: Returns raw response from the endpoint. Overrides `--check`.
 - `--check`: Checks for status of pods with the prefix provided as argument.
              Returns status of those pods with an explanation of that status.
+
+
+## TODO
+
+Due to time limitations, these items have not been resolved:
+
+- Fix `test.yaml` workflow (GHA is not running it for some reason)
+- Add unittest workflow to README
+- Add more unit tests (arg parser, HTTP error codes)
+- Archive package to GH for import by other projects
