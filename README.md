@@ -49,3 +49,12 @@ sudo python3 setup.py install
 
 This method is not recommended as it is harder to clean up and has a higher risk
 of mismatched dependencies with other tools and libraries.
+
+
+## Running
+
+`diagnose` takes one of two switches:
+
+- `--get`: Returns raw response from the endpoint. Overrides `--check`.
+- `--check`: Checks for status of pods with the prefix provided as argument.
+             Returns status of those pods with an explanation of that status.
